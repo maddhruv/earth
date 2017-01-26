@@ -11,7 +11,7 @@
 <link href="https://raw.githubusercontent.com/midhruvjaink/earth/v-0/css/earth.little.css" rel="stylesheet" />
 ```
 
-### Components
+## Components
 #### * color
 ```css
 .color-text
@@ -29,22 +29,24 @@
 
 #### * margin
 ```css
-.margin-10/20/30/40/50/60/70/80/90/100
-.margin-top-10/20/30/40/50/60/70/80/90/100
-.margin-right-10/20/30/40/50/60/70/80/90/100
-.margin-bottom-10/20/30/40/50/60/70/80/90/100
-.margin-left-10/20/30/40/50/60/70/80/90/100
+.margin-*
+.margin-top-*
+.margin-right-*
+.margin-bottom-*
+.margin-left-*
 ```
+*-( 10/20/30..../100 )
 The units are in px.
 
 #### * padding
 ```css
-.padding-10/20/30/40/50/60/70/80/90/100
-.padding-top-10/20/30/40/50/60/70/80/90/100
-.padding-right-10/20/30/40/50/60/70/80/90/100
-.padding-bottom-10/20/30/40/50/60/70/80/90/100
-.padding-left-10/20/30/40/50/60/70/80/90/100
+.padding-*
+.padding-top-*
+.padding-right-*
+.padding-bottom-*
+.padding-left-*
 ```
+*-( 10/20/30..../100 )
 The units are in px.
 
 #### * text align
@@ -79,8 +81,9 @@ The units are in px.
 
 #### * font-size
 ```css
-.font-size-10/20/30/40/50/60/70/80/90/100
+.font-size-*
 ```
+*-( 10/20/30..../100 )
 The units are in px.
 
 #### * font-weight
