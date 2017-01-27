@@ -99,3 +99,14 @@ The units are in px.
 .square-list
 .lower/upper-roman/alpha-list
 ```
+
+#### * grid - 12blocks
+Columns live inside Rows
+```css
+.lg-1 - .lg-12
+.md-1 - .md-12
+.sm-1 - .sm-12
+.xs-1 - .xs-12
+.size-offset-1 - .size-offset-12
+```
+Size is lg/md/sm/xs
