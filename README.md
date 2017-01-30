@@ -4,11 +4,11 @@
 ## Include the following code in your head :skull:
 #### Normal CSS
 ```html
-<link href="https://raw.githubusercontent.com/midhruvjaink/earth/v-0/css/earth.css" rel="stylesheet" />
+<link href="https://cdn.rawgit.com/midhruvjaink/earth/v-0/css/earth.css" rel="stylesheet" />
 ```
 #### Little CSS
 ```html
-<link href="https://raw.githubusercontent.com/midhruvjaink/earth/v-0/css/earth.little.css" rel="stylesheet" />
+<link href="https://cdn.rawgit.com/midhruvjaink/earth/v-0/css/earth.little.css" rel="stylesheet" />
 ```
 
 ## Components
