@@ -1,1 +1,8 @@
+title: Earth.css
+description: > # this means to ignore newlines until "baseurl:"
+  Responsive Modern Web Development Framework, making development easier and faster
+baseurl: "/earth"
+# Build settings
+markdown: kramdown
+
 theme: jekyll-theme-architect
