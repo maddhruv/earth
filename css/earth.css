@@ -18,6 +18,7 @@ body {
   position: relative
 
   min-height: 100vh;
+
   margin: 0;
 }
 
@@ -2258,10 +2259,10 @@ template {
 
 /*grids*/
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+    padding-right: 15px;
+    padding-left: 15px;
 }
 @media (min-width: 768px) {
     .container {
@@ -2279,10 +2280,10 @@ template {
     }
 }
 .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .row {
     margin-right: -15px;
@@ -2337,6 +2338,7 @@ template {
 .xs-8,
 .xs-9 {
     position: relative;
+
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
@@ -3014,4 +3016,29 @@ template {
     .lg-offset-0 {
         margin-left: 0
     }
+}
+/*responsive media*/
+img.responsive,video.responsive{
+  max-width:100%;
+  height:auto
+}
+
+/*shadow*/
+.shadow-0{
+  box-shadow:none !important
+}
+.shadow-1{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+.shadow-2{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.shadow-3{
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
+.shadow-4{
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21)
+}
+.shadow-5{
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22)
 }
