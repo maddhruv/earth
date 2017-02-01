@@ -3042,3 +3042,47 @@ img.responsive,video.responsive{
 .shadow-5{
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22)
 }
+
+/*hover effect*/
+.hoverable{
+    transition: box-shadow .25s;
+
+    box-shadow: 0
+}
+.hoverable:hover{
+    transition: box-shadow .25s;
+
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*emebed responsive*/
+.embed-responsive {
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+
+  height: 0;
+  padding: 0;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+}
+.embed-responsive-16x9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4x3 {
+  padding-bottom: 75%;
+}

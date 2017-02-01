@@ -110,3 +110,26 @@ Columns live inside Rows
 .size-offset-1 - .size-offset-12
 ```
 Size is lg/md/sm/xs
+
+#### * responsive media
+```html
+<img class="responsive" />
+<video class="responsive"></video>
+```
+
+#### * box shadow
+```css
+.shadown-0 - .shadow-5
+```
+
+#### * hover effect
+```css
+.hoverable
+```
+
+#### * embed responsive
+```css
+.embed-responsive
+.embed-responsive-16x9
+.embed-responsive-4x3
+```
