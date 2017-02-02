@@ -133,3 +133,10 @@ Size is lg/md/sm/xs
 .embed-responsive-16x9
 .embed-responsive-4x3
 ```
+
+#### * image shape
+```css
+.img-round
+.img-circle
+.img-thumbnail
+```
