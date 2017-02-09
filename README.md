@@ -140,3 +140,8 @@ Size is lg/md/sm/xs
 .img-circle
 .img-thumbnail
 ```
+
+#### Disable Text Select
+```css
+.noselect
+```
